@@ -4,10 +4,6 @@
  */
 package projetvelov.accesBD;
 
-/**
- *
- * @author Damien
- */
 
 
 import java.io.FileInputStream;

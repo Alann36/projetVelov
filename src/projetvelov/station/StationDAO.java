@@ -13,10 +13,18 @@ import java.sql.SQLException;
  * @author Damien
  */
 public class StationDAO extends DAO<Station> {
-    public StationDAO(Connection conn){
+    private static StationDAO instance=null;
+    
+    private StationDAO(Connection conn){
         super(conn);
     }
 
+    public static StationDAO getInstance(Connection conn){
+       if(instance == null)
+           instance = new StationDAO(conn);
+       return instance;
+    }
+    
   public boolean create(Station obj) {
                 return false;
         }
