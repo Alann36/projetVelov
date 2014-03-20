@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package vueAppli;
+package projetvelov.vueAppli;
 
 /**
  *
@@ -64,7 +64,7 @@ public class Fenetre extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vueAppli/Banniere.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/projetvelov/vueAppli/Banniere.jpg"))); // NOI18N
 
         tbTableau.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
